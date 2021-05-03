@@ -2,8 +2,8 @@ return {
 
     InfoVersion = 1, -- Dont touch this
 
-    ID = "temp", -- A unique id 
-    Version = "0.0.1" -- The package version
+    ID = "template", -- A unique id 
+    Version = "0.0.1", -- The package version
 
 
     Name = "Template", -- The name of the project, can use spaces
@@ -15,6 +15,15 @@ return {
         },
         Contributors = {
             "Dotter Team"
+        }
+    },
+
+    Dependencies = {
+        Luvit = {
+            -- Luvit dependencies ("username/projectname")
+        },
+        Dua = {
+            -- Dua dependencies ("projectid")
         }
     }
 
