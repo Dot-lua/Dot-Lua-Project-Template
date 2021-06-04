@@ -25,7 +25,7 @@ return {
         Dua = {
             -- Dua dependencies ("projectid")
         }
-    }
+    },
 
     Contact = {
         Website = "http://cubicinc.ga", -- Homepage
@@ -33,17 +33,15 @@ return {
         Socials = {
             Twitter = "", -- Twitter link
             Facebook = "", -- Facebook link
-            Discord = "", -- Discord server invite
+            Discord = "" -- Discord server invite
         }
     },
 
     Icon = "", -- Icon for the package, not used normally but can be used by some projects
     Environment = "*", -- Not used at the moment
     Entrypoints = {
-        Main = "ga.corebyte.template.Main",
+        Main = "ga.corebyte.template.Main"
         -- CubyPackage = "some.other.entry.caused.by.another.package", -- a package can call another packages entrypoints
     }
-
-
 
 }
