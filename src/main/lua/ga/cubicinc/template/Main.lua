@@ -1,6 +1,6 @@
 local Package = {}
 
-Import(ga.cubicinc.logger)
+local Logger = Import(ga.cubicinc.logger)
 
 function Package.OnInitialize()
 
