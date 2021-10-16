@@ -5,7 +5,6 @@ return {
     ID = "template", -- A unique id 
     Version = "0.0.1", -- The package version
 
-
     Name = "Template", -- The name of the project, can use spaces
     Description = "A Dua template", -- Description
 
@@ -28,19 +27,19 @@ return {
     },
 
     Contact = {
-        Website = "http://cubicinc.ga", -- Homepage
+        Website = "http://cubic-inc.nl", -- Homepage
         Source = "https://github.com/Dot-lua/Dotter-Project-Template", -- Github repro
         Socials = {
             Twitter = "", -- Twitter link
             Facebook = "", -- Facebook link
-            Discord = "" -- Discord server invite
+            Discord = "https://join.cubic-inc.nl" -- Discord server invite
         }
     },
 
     Icon = "", -- Icon for the package, not used normally but can be used by some projects
     Environment = "*", -- Not used at the moment
     Entrypoints = {
-        Main = "ga.cubicinc.template.Main"
+        Main = "nl.cubic-inc.template.Main"
         -- CubyPackage = "some.other.entry.caused.by.another.package", -- a package can call another packages entrypoints
     }
 
