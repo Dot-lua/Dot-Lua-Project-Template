@@ -1,3 +1,5 @@
+-- See https://github.com/Dot-lua/TypeWriter/wiki/package.info.lua-format for more info
+
 return {
 
     InfoVersion = 1, -- Dont touch this
@@ -27,12 +29,12 @@ return {
     },
 
     Contact = {
-        Website = "http://cubic-inc.nl", -- Homepage
+        Website = "http://cubic-inc.ga", -- Homepage
         Source = "https://github.com/Dot-lua/Dotter-Project-Template", -- Github repro
         Socials = {
             Twitter = "", -- Twitter link
             Facebook = "", -- Facebook link
-            Discord = "https://join.cubic-inc.nl" -- Discord server invite
+            Discord = "https://join.cubic-inc.ga" -- Discord server invite
         }
     },
 
